@@ -23,20 +23,9 @@ class NodeCell: UITableViewCell {
     
     var node: ListNode! {
         didSet {
+            self.level = node.level
             self.titleLabel.text = node.title
             self.arrowLabel.isHidden = (node.children?.count ?? 0) == 0
-        }
-    }
-    
-    override var isSelected: Bool {
-        didSet {
-            UIView.animate(withDuration: 0.2) {[unowned self] () in
-                if self.isSelected {
-                    self.arrowLabel.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
-                } else {
-                    self.arrowLabel.transform = .identity
-                }
-            }
         }
     }
     
@@ -59,6 +48,13 @@ class NodeCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+        UIView.animate(withDuration: 0.2) {[unowned self] () in
+            if selected {
+                self.arrowLabel.transform = CGAffineTransform(rotationAngle: CGFloat.pi / 2)
+            } else {
+                self.arrowLabel.transform = .identity
+            }
+        }
     }
     
 }

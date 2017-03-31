@@ -8,9 +8,10 @@
 
 import Foundation
 
-struct ListNode {
+class ListNode {
     var title: String
     var children: [ListNode]?
+    var level: Int = 0
     
     init(title: String, children: [ListNode]? = nil) {
         self.title = title

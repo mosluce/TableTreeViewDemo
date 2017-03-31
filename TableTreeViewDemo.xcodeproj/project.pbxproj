@@ -16,6 +16,7 @@
 		44774E861E8E568800036706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44774E851E8E568800036706 /* Assets.xcassets */; };
 		44774E891E8E568800036706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44774E871E8E568800036706 /* LaunchScreen.storyboard */; };
 		44774E921E8E571F00036706 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44774E911E8E571F00036706 /* ListNode.swift */; };
+		44E53ABA1E8E935D00E2CCF0 /* SportsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E53AB91E8E935D00E2CCF0 /* SportsNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		44774E881E8E568800036706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44774E8A1E8E568800036706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44774E911E8E571F00036706 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		44E53AB91E8E935D00E2CCF0 /* SportsNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SportsNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				44774E911E8E571F00036706 /* ListNode.swift */,
+				44E53AB91E8E935D00E2CCF0 /* SportsNode.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44774E811E8E568800036706 /* ViewController.swift in Sources */,
+				44E53ABA1E8E935D00E2CCF0 /* SportsNode.swift in Sources */,
 				44774E7F1E8E568800036706 /* AppDelegate.swift in Sources */,
 				44774E921E8E571F00036706 /* ListNode.swift in Sources */,
 				44231B6C1E8E6E56004C9C2F /* NodeCell.swift in Sources */,
