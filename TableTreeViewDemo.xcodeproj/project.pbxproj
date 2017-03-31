@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44231B6C1E8E6E56004C9C2F /* NodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44231B6A1E8E6E56004C9C2F /* NodeCell.swift */; };
+		44231B6D1E8E6E56004C9C2F /* NodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44231B6B1E8E6E56004C9C2F /* NodeCell.xib */; };
+		44231B701E8E6FDC004C9C2F /* SwiftIconFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44231B6F1E8E6FDC004C9C2F /* SwiftIconFont.framework */; };
 		44774E7F1E8E568800036706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44774E7E1E8E568800036706 /* AppDelegate.swift */; };
 		44774E811E8E568800036706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44774E801E8E568800036706 /* ViewController.swift */; };
 		44774E841E8E568800036706 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44774E821E8E568800036706 /* Main.storyboard */; };
 		44774E861E8E568800036706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44774E851E8E568800036706 /* Assets.xcassets */; };
 		44774E891E8E568800036706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44774E871E8E568800036706 /* LaunchScreen.storyboard */; };
+		44774E921E8E571F00036706 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44774E911E8E571F00036706 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		44231B6A1E8E6E56004C9C2F /* NodeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NodeCell.swift; sourceTree = "<group>"; };
+		44231B6B1E8E6E56004C9C2F /* NodeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NodeCell.xib; sourceTree = "<group>"; };
+		44231B6F1E8E6FDC004C9C2F /* SwiftIconFont.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftIconFont.framework; path = Carthage/Build/iOS/SwiftIconFont.framework; sourceTree = "<group>"; };
 		44774E7B1E8E568800036706 /* TableTreeViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableTreeViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44774E7E1E8E568800036706 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44774E801E8E568800036706 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		44774E851E8E568800036706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44774E881E8E568800036706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44774E8A1E8E568800036706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44774E911E8E571F00036706 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44231B701E8E6FDC004C9C2F /* SwiftIconFont.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44231B6E1E8E6FDC004C9C2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44231B6F1E8E6FDC004C9C2F /* SwiftIconFont.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44231B721E8E70AA004C9C2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44231B6A1E8E6E56004C9C2F /* NodeCell.swift */,
+				44231B6B1E8E6E56004C9C2F /* NodeCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		44774E721E8E568800036706 = {
 			isa = PBXGroup;
 			children = (
 				44774E7D1E8E568800036706 /* TableTreeViewDemo */,
 				44774E7C1E8E568800036706 /* Products */,
+				44231B6E1E8E6FDC004C9C2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +81,8 @@
 		44774E7D1E8E568800036706 /* TableTreeViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				44231B721E8E70AA004C9C2F /* Views */,
+				44774E901E8E56DB00036706 /* Models */,
 				44774E7E1E8E568800036706 /* AppDelegate.swift */,
 				44774E801E8E568800036706 /* ViewController.swift */,
 				44774E821E8E568800036706 /* Main.storyboard */,
@@ -62,6 +91,14 @@
 				44774E8A1E8E568800036706 /* Info.plist */,
 			);
 			path = TableTreeViewDemo;
+			sourceTree = "<group>";
+		};
+		44774E901E8E56DB00036706 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44774E911E8E571F00036706 /* ListNode.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +111,7 @@
 				44774E771E8E568800036706 /* Sources */,
 				44774E781E8E568800036706 /* Frameworks */,
 				44774E791E8E568800036706 /* Resources */,
+				44231B711E8E6FE4004C9C2F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -127,10 +165,28 @@
 				44774E891E8E568800036706 /* LaunchScreen.storyboard in Resources */,
 				44774E861E8E568800036706 /* Assets.xcassets in Resources */,
 				44774E841E8E568800036706 /* Main.storyboard in Resources */,
+				44231B6D1E8E6E56004C9C2F /* NodeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44231B711E8E6FE4004C9C2F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftIconFont.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		44774E771E8E568800036706 /* Sources */ = {
@@ -139,6 +195,8 @@
 			files = (
 				44774E811E8E568800036706 /* ViewController.swift in Sources */,
 				44774E7F1E8E568800036706 /* AppDelegate.swift in Sources */,
+				44774E921E8E571F00036706 /* ListNode.swift in Sources */,
+				44231B6C1E8E6E56004C9C2F /* NodeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +320,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P92HHTP8SE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TableTreeViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.TableTreeViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,7 +338,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = P92HHTP8SE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = TableTreeViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.TableTreeViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +370,7 @@
 				44774E8F1E8E568800036706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

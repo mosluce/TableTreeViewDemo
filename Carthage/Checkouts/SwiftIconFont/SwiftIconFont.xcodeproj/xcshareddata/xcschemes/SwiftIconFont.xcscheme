@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0730"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44774E7A1E8E568800036706"
-               BuildableName = "TableTreeViewDemo.app"
-               BlueprintName = "TableTreeViewDemo"
-               ReferencedContainer = "container:TableTreeViewDemo.xcodeproj">
+               BlueprintIdentifier = "DA8D9D101D345A3800F5E693"
+               BuildableName = "SwiftIconFont.framework"
+               BlueprintName = "SwiftIconFont"
+               ReferencedContainer = "container:SwiftIconFont.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,24 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DA8D9D1A1D345A3800F5E693"
+               BuildableName = "SwiftIconFontTests.xctest"
+               BlueprintName = "SwiftIconFontTests"
+               ReferencedContainer = "container:SwiftIconFont.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44774E7A1E8E568800036706"
-            BuildableName = "TableTreeViewDemo.app"
-            BlueprintName = "TableTreeViewDemo"
-            ReferencedContainer = "container:TableTreeViewDemo.xcodeproj">
+            BlueprintIdentifier = "DA8D9D101D345A3800F5E693"
+            BuildableName = "SwiftIconFont.framework"
+            BlueprintName = "SwiftIconFont"
+            ReferencedContainer = "container:SwiftIconFont.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -51,16 +61,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44774E7A1E8E568800036706"
-            BuildableName = "TableTreeViewDemo.app"
-            BlueprintName = "TableTreeViewDemo"
-            ReferencedContainer = "container:TableTreeViewDemo.xcodeproj">
+            BlueprintIdentifier = "DA8D9D101D345A3800F5E693"
+            BuildableName = "SwiftIconFont.framework"
+            BlueprintName = "SwiftIconFont"
+            ReferencedContainer = "container:SwiftIconFont.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +79,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44774E7A1E8E568800036706"
-            BuildableName = "TableTreeViewDemo.app"
-            BlueprintName = "TableTreeViewDemo"
-            ReferencedContainer = "container:TableTreeViewDemo.xcodeproj">
+            BlueprintIdentifier = "DA8D9D101D345A3800F5E693"
+            BuildableName = "SwiftIconFont.framework"
+            BlueprintName = "SwiftIconFont"
+            ReferencedContainer = "container:SwiftIconFont.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

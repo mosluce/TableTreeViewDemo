@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+struct ListNode {
+    var title: String
+    var children: [ListNode]?
+    
+    init(title: String, children: [ListNode]? = nil) {
+        self.title = title
+        self.children = children
+    }
+    
+}
